@@ -1,0 +1,27 @@
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Local app data and user media
+downloades/
+downloads/
+vector_db/
+*.wav
+*.mp3
+*.mp4
+*.m4a
+*.webm
+
+# Local secrets and editor/system files
+.streamlit/secrets.toml
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
